@@ -12,6 +12,9 @@
     "protractor": "^5.4.1",
     "protractor-beautiful-reporter": "^1.2.5"
   },
+  "scripts":{
+    "tests": "protractor Configuration/conf.js"
+  },
   "dependencies": {
     "pg-promise": "^8.5.0"
   }
